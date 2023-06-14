@@ -4,7 +4,8 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object ApiClient {
-    private const val BASE_URL = "https://apitani.burunghantu.id/sub/restapi-slim/public/"
+    private const val BASE_URL =
+        "https://apitani.burunghantu.id/sub/restapi-slim/public/"
 
     private val retrofit: Retrofit by lazy {
         Retrofit.Builder()

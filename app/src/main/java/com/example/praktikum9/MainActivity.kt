@@ -26,7 +26,6 @@ class MainActivity : AppCompatActivity() {
         binding.recyclerView.adapter = adapter
         binding.recyclerView.setHasFixedSize(true)
 
-
     }
     override fun onResume() {
         super.onResume()
@@ -63,5 +62,4 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
         finish()
     }
-
 }
